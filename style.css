@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.web {
+  height: auto;
+  display: flex;
+
+}
+
+.left {
+  width: 280px;
+  background: #0bb5f4;
+  height: 100%;
+}
+
+.profile {
+  width: 100%;
+  height: 280px;
+}
+
+.pic {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  padding: 0 25px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.bold {
+  color: #fff;
+}
+
+.regular {
+  color:  #e8ebe9;
+}
+
+.item {
+  padding: 25px 0;
+  border-bottom: 2px solid  #e8ebe9;
+}
+
+
+.left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+
+ .left ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #0bb5f4;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.left .icon i,
+.right .hobbies ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left ul li .data {
+  color: #b1eaff;
+}
+
+.left .skills ul li {
+  display: flex;
+  margin-top: 10px;
+  color:  #e8ebe9;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.right {
+  width:80%;
+ background-color:#e5f9ff ;
+  padding:  20px;
+
+}
+
+.right .bold {
+  color: #0bb5f4;
+}
+header{
+  font-size:125% ;
+  background-image: url('img.jpg');
+  height:70px;
+  font-style: italic;
+  color:#fff;
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.study{
+  display: inline-block;
+  width:70%;
+}
+.study ul{
+  padding-left: 40px;
+  overflow: hidden;
+}
+.right ul li{
+  position: relative;
+}
+.right ul li .date{
+  font-size: 16px;
+  font-weight:500; 
+  margin-bottom:15px;
+}
+.right ul li .info{
+  margin-bottom: 20px;
+
+}
+.right ul li:last-child .info{
+  margin-bottom: 0px;
+}
+
+.right .title{
+  padding-top: 10px;
+}
+.study ul li:before{
+  content:"";
+  position: absolute;
+  top:5px;
+  left:-25px;
+  width:6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+
+}
+.study ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.study ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
+.extra{
+  display: inline-block;
+  width: 58%;
+}
+.extra ul{
+  padding-left: 40px;
+}
+.hobbies{
+  display: inline-block;
+  width:40%;
+}
+.hobbies ul{
+  display: flex;
+  justify-content: space-between;
+}
+.hobbies ul li{
+  width:80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+  position: relative;
+  color:#0bb5f4;
+}
+.hobbies ul li i{
+  font-size: 30px;
+
+}
+.hobbies ul li:before{
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -33px;
+  width: 30px;
+  height: 2px;
+  background: #0bb5f4;
+}
+.hobbies ul li:last-child:before{
+  display: none;
+}
+.social ul li{
+  display: inline;
+  padding-left: 20px;
+  float: left;
+}
+h2{
+  background:linear-gradient(#00b7ea 20%,#a4b1b3 100%);
+  margin-left: 10px;
+  color: white;
+  padding:5px;
+}
+
+ .clg{
+  width:25%;
+ } 
